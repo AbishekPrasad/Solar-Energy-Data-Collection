@@ -1,2 +1,2 @@
-# Solar-Energy-Prediction
-program for solar energy prediction
+# Solar-Energy-Data-Collection
+program to collect data of solar energy from wesite MOSDAC 
