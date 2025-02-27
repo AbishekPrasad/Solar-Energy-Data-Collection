@@ -20,6 +20,6 @@ def dataClean(data):
      
     fullData = Date.join(data)
     
-    full_data = fullData.loc[(data['time']>=615) & (data['time']<=1745)]
+    full_data = fullData.loc[data['flux']>0]
     today_data = full_data.loc[(full_data['date'] == today_date)]
     return full_data, today_data
